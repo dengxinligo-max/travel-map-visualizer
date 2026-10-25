@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "title": "西湖旅行地图",
+  "subtitle": "两日慢游 · 把时间留给湖边",
+  "region": "浙江 · 杭州",
+  "mode": "city",
+  "edition": "演示攻略 / 不含实时票价",
+  "map": {
+    "geojson": "map.geojson",
+    "crs": "EPSG:4326",
+    "bbox": [
+      120.1,
+      30.2,
+      120.19,
+      30.28
+    ],
+    "attribution": "© OpenStreetMap contributors · ODbL · openstreetmap.org/copyright",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "retrieved_at": "待实际下载后填写"
+  },
+  "pois": [
+    {
+      "id": "broken-bridge",
+      "name": "断桥残雪",
+      "day": "D1",
+      "priority": "must",
+      "label_side": "right",
+      "note": "从湖东北侧开启第一天。",
+      "coord": null,
+      "coordinate_status": "unresolved",
+      "coordinate_source": ""
+    },
+    {
+      "id": "autumn-moon",
+      "name": "平湖秋月",
+      "day": "D1",
+      "priority": "recommended",
+      "label_side": "left",
+      "note": "在北岸放慢脚步，沿湖停留。",
+      "coord": null,
+      "coordinate_status": "unresolved",
+      "coordinate_source": ""
+    },
+    {
+      "id": "lotus",
+      "name": "曲院风荷",
+      "day": "D1",
+      "priority": "recommended",
+      "label_side": "left",
+      "note": "北岸行程的最后一站。",
+      "coord": null,
+      "coordinate_status": "unresolved",
+      "coordinate_source": ""
+    },
+    {
+      "id": "flower-harbor",
+      "name": "花港观鱼",
+      "day": "D2",
+      "priority": "recommended",
+      "label_side": "left",
+      "note": "第二天从西南岸开始。",
+      "coord": null,
+      "coordinate_status": "unresolved",
+      "coordinate_source": ""
+    },
+    {
+      "id": "leifeng",
+      "name": "雷峰塔",
+      "day": "D2",
+      "priority": "must",
+      "label_side": "right",
+      "note": "第二天的重点，按现场情况安排。",
+      "coord": null,
+      "coordinate_status": "unresolved",
+      "coordinate_source": ""
+    },
+    {
+      "id": "willow",
+      "name": "柳浪闻莺",
+      "day": "D2",
+      "priority": "recommended",
+      "label_side": "right",
+      "note": "沿东岸收尾，留出休息时间。",
+      "coord": null,
+      "coordinate_status": "unresolved",
+      "coordinate_source": ""
+    }
+  ],
+  "routes": [
+    {
+      "id": "D1",
+      "name": "北岸慢走",
+      "kind": "schematic",
+      "color": "#327bef",
+      "poi_ids": [
+        "broken-bridge",
+        "autumn-moon",
+        "lotus"
+      ],
+      "description": "断桥残雪 → 平湖秋月 → 曲院风荷。轻松走走，在湖边停留。"
+    },
+    {
+      "id": "D2",
+      "name": "南岸闲游",
+      "kind": "schematic",
+      "color": "#5d793e",
+      "poi_ids": [
+        "flower-harbor",
+        "leifeng",
+        "willow"
+      ],
+      "description": "花港观鱼 → 雷峰塔 → 柳浪闻莺。园林与湖岸，串起第二天。"
+    }
+  ],
+  "tips": [
+    "虚线只表达游览顺序，实际道路与交通请另行确认。",
+    "未提供门票与开放时间；出行前请查阅各景点官方信息。"
+  ],
+  "assumptions": [
+    "演示内容用于检验文字转地图流程。"
+  ],
+  "sources": []
+}

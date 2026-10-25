@@ -1,0 +1,4 @@
+interface:
+  display_name: "地图攻略可视化"
+  short_description: "先选择地图风格，再把文字攻略制作成真实地图海报，输出 HTML 和高清图片"
+  default_prompt: "使用 $travel-map-visualizer，先让我选择地图风格，再将旅行攻略制作成真实地图海报，输出 HTML 和高清 PNG；如果我已指定风格就直接采用。"
